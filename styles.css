@@ -1,0 +1,48 @@
+.bg { background-color: #f2e8d8; min-height: 100vh; display: flex; justify-content: center; overflow-x: hidden; font-family: 'Gloria Hallelujah', sans-serif; color: #542b16; margin: 0; padding: 0; }
+.mural { position: relative; width: 1920px; height: 11108px; background-color: #f2e8d8; overflow: hidden; flex-shrink: 0; }
+.poem-text { position: absolute; font-size: 48px; line-height: 80px; white-space: nowrap; z-index: 50; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1)); }
+.curve-char { position: absolute; display: flex; justify-content: center; align-items: center; }
+#spark-container { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 99; overflow: hidden; }
+.spark { position: absolute; bottom: -20px; width: 6px; height: 6px; background-color: #ffb700; border-radius: 50%; box-shadow: 0 0 12px 3px #ff4500; opacity: 0; animation: spark-fly linear forwards; }
+@keyframes spark-fly { 0% { transform: translateY(0) translateX(0) scale(1); opacity: 0; } 10% { opacity: 1; } 100% { transform: translateY(-110vh) translateX(calc(-100px + 200px * var(--drift))) scale(0); opacity: 0; } }
+.text-47 { right: 140px; top: 4273px; text-align: right; font-size: 48px; line-height: 80px; color: #542b16; }
+.text-48 { right: 140px; top: 4353px; text-align: right; font-size: 48px; line-height: 80px; color: #542b16; }
+.text-49 { left: 106px; top: 2503px; font-size: 48px; line-height: 80px; color: #542b16; }
+.text-50 { left: 106px; top: 2583px; font-size: 48px; line-height: 80px; color: #542b16; }
+.text-51 { left: 106px; top: 2663px; font-size: 48px; line-height: 80px; color: #542b16; }
+.text-52 { left: 106px; top: 3730px; font-size: 48px; line-height: 80px; color: #542b16; }
+.text-53 { left: 106px; top: 3810px; font-size: 48px; line-height: 80px; color: #542b16; }
+.text-54 { width: 100%; top: 6927px; text-align: center; font-size: 48px; line-height: 80px; color: white; left: 0; }
+.text-55 { width: 100%; top: 7007px; text-align: center; font-size: 48px; line-height: 80px; color: white; left: 0; }
+.text-56 { width: 100%; top: 7087px; text-align: center; font-size: 48px; line-height: 80px; color: white; left: 0; }
+.text-57 { width: 100%; top: 7167px; text-align: center; font-size: 48px; line-height: 80px; color: white; left: 0; }
+.text-58 { right: 100px; top: 7454px; text-align: right; font-size: 48px; line-height: 80px; color: white; }
+.text-59 { right: 100px; top: 7534px; text-align: right; font-size: 48px; line-height: 80px; color: white; }
+.text-60 { right: 100px; top: 7614px; text-align: right; font-size: 48px; line-height: 80px; color: white; }
+.text-61 { right: 100px; top: 7694px; text-align: right; font-size: 48px; line-height: 80px; color: white; }
+.text-62 { left: 86px; top: 8088px; font-size: 48px; line-height: 80px; color: white; }
+.text-63 { left: 86px; top: 8168px; font-size: 48px; line-height: 80px; color: white; }
+.text-64 { left: 86px; top: 8248px; font-size: 48px; line-height: 80px; color: white; }
+.text-65 { right: 100px; top: 8798px; text-align: right; font-size: 48px; line-height: 80px; color: white; }
+.text-66 { right: 100px; top: 8878px; text-align: right; font-size: 48px; line-height: 80px; color: white; }
+.text-67 { right: 100px; top: 8958px; text-align: right; font-size: 48px; line-height: 80px; color: white; }
+.text-68 { right: 100px; top: 9038px; text-align: right; font-size: 48px; line-height: 80px; color: white; }
+.text-69 { right: 100px; top: 9118px; text-align: right; font-size: 48px; line-height: 80px; color: white; }
+.text-70 { right: 100px; top: 9198px; text-align: right; font-size: 48px; line-height: 80px; color: white; }
+.text-71 { width: 600px; left: 580px; top: 10297px; text-align: center; font-size: 24px; line-height: 60px; color: black; }
+.text-72 { width: 600px; left: 580px; top: 10357px; text-align: center; font-size: 24px; line-height: 60px; color: black; }
+.text-73 { width: 600px; left: 580px; top: 10417px; text-align: center; font-size: 24px; line-height: 60px; color: black; }
+.text-74 { width: 600px; left: 580px; top: 10477px; text-align: center; font-size: 24px; line-height: 60px; color: black; }
+.text-75 { width: 600px; left: 580px; top: 10537px; text-align: center; font-size: 24px; line-height: 60px; color: black; }
+.text-76 { width: 600px; left: 580px; top: 10597px; text-align: center; font-size: 24px; line-height: 60px; color: black; }
+.text-77 { width: 600px; left: 580px; top: 10657px; text-align: center; font-size: 24px; line-height: 60px; color: black; }
+.text-78 { width: 600px; left: 580px; top: 10717px; text-align: center; font-size: 24px; line-height: 60px; color: black; }
+.text-79 { width: 600px; left: 580px; top: 10777px; text-align: center; font-size: 24px; line-height: 60px; color: black; }
+.text-80 { left: 128px; top: 1092px; font-size: 48px; line-height: 80px; color: #542b16; }
+.text-81 { left: 128px; top: 1172px; font-size: 48px; line-height: 80px; color: #542b16; }
+.text-82 { left: 1110px; top: 1354.55px; color: #542b16; }
+.text-83 { left: 812.6px; top: 3413.63px; color: #542b16; }
+.text-84 { left: 170.16px; top: 5451.65px; color: #542b16; }
+.text-85 { left: 52.99px; top: 6435.52px; color: white; }
+.text-86 { left: 84.67px; top: 6512.53px; color: white; }
+.text-87 { left: 1332.12px; top: 2358.82px; color: #542b16; }
